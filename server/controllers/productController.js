@@ -63,6 +63,7 @@ const deleteProduct = asyncHandler(async (req,res)=>{
         productData: deletedProduct ? deletedProduct : 'Cannot delete product!!!!'  
     })
 })
+//testing
 
 module.exports = {
     createProduct,
